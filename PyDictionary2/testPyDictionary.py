@@ -1,17 +1,17 @@
-import core
+from .core import define, synonym, antonym
 import unittest
 
 
 def testDefine(word):
-    return core.define(word)
+    return define(word)
 
 
 def testSynonym(word):
-    return core.synonym(word)
+    return synonym(word)
 
 
 def testAntonym(word):
-    return core.antonym(word)
+    return antonym(word)
 
 
 class MyTest(unittest.TestCase):

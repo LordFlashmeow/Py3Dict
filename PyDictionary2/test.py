@@ -1,5 +1,5 @@
-import core
+from .core import define, synonym, antonym
 
-print(core.define('python'))
-print(core.synonym('happy'))
-print(core.antonym('happy'))
+print(define('python'))
+print(synonym('happy'))
+print(antonym('happy'))
