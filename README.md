@@ -1,6 +1,6 @@
 # PyLexicon: A Dictionary Module for Python
 
-PyLexicon is an updated and streamlined dictionary module for Python 3 to get meanings, synonyms, antonyms, and translations. It uses [WordNet](https://wordnet.princeton.edu/) for definitions, [Thesaurus.com](http://www.thesaurus.com/) for synonyms and antonyms, and [Google Translate](https://translate.google.com/) for translations.
+PyLexicon is an updated and streamlined dictionary module for Python 3 to get meanings, synonyms, and antonyms,. It uses [WordNet](https://wordnet.princeton.edu/) for definitions, and [Thesaurus.com](http://www.thesaurus.com/) for synonyms and antonyms.
 
 This module uses `requests` and `BeautifulSoup4` as dependencies.
 
@@ -12,7 +12,7 @@ This module uses `requests` and `BeautifulSoup4` as dependencies.
 
 PyLexicon is designed with simplicity in mind, which makes it easy to use.
 
-PyLexicon has only three functions: `define`, `synonym` ,and  `antonym`
+PyLexicon has three functions: `define`, `synonym`, and  `antonym`.
 
 ### Importing:
 
