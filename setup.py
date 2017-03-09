@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='pylexicon',
-      version='1.0.1',
+      version='1.0.2',
       description='A python module to get meanings, synonyms and antonyms',
       url='http://github.com/LordFlashmeow/pylexicon',
       author='LordFlashmeow',
