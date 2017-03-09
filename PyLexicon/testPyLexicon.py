@@ -1,4 +1,4 @@
-from .core import define, synonym, antonym
+from pylexicon.core import define, synonym, antonym
 import unittest
 
 
