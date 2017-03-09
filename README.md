@@ -14,6 +14,12 @@ PyLexicon is designed with simplicity in mind, which makes it easy to use.
 
 PyLexicon has only three functions: `define`, `synonym` ,and  `antonym`
 
+### Importing:
+
+```python
+>>> import PyLexicon
+```
+
 ### Define:
 
 ```python
