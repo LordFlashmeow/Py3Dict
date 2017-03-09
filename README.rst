@@ -1,7 +1,7 @@
-PyDict: A Dictionary Module for Python
+PyLexicon: A Dictionary Module for Python
 ======================================
 
-PyDict is an updated and streamlined dictionary module for Python 3 to
+PyLexicon is an updated and streamlined dictionary module for Python 3 to
 get meanings, synonyms, antonyms, and translations. It uses `WordNet`_
 for definitions, `Thesaurus.com`_ for synonyms and antonyms, and `Google
 Translate`_ for translations.
@@ -11,14 +11,14 @@ This module uses ``requests`` and ``BeautifulSoup4`` as dependencies.
 Installation
 ------------
 
-``pip install PyDictionary``
+``pip install PyLexicon``
 
 Usage
 -----
 
-PyDict is designed with simplicity in mind, which makes it easy to use.
+PyLexicon is designed with simplicity in mind, which makes it easy to use.
 
-PyDict has only three functions: ``define``, ``synonym`` ,and
+PyLexicon has only three functions: ``define``, ``synonym`` ,and
 ``antonym``
 
 Define:
@@ -26,7 +26,7 @@ Define:
 
 .. code:: python
 
-    >>> print(PyDict.define('hello'))
+    >>> print(PyLexicon.define('hello'))
     {'Noun': ['an expression of greeting']}
 
 Synonym:
@@ -34,7 +34,7 @@ Synonym:
 
 .. code:: python
 
-    >>> print(PyDict.synonym('happy'))
+    >>> print(PyLexicon.synonym('happy'))
     ['cheerful', 'contented', 'overjoyed', 'ecstatic', 'elated']
 
 Antonym:
@@ -42,7 +42,7 @@ Antonym:
 
 .. code:: python
 
-    >>> print(PyDict.antonym('happy'))
+    >>> print(PyLexicon.antonym('happy'))
     ['melancholy', 'upset', 'disappointed', 'sorrowful', 'unfriendly']
 
 .. _WordNet: https://wordnet.princeton.edu/
