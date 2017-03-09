@@ -1,5 +1,4 @@
 import re
-import goslate
 import requests
 from bs4 import BeautifulSoup
 
@@ -108,22 +107,3 @@ def antonym(word):
         opposites.append(item.select("span.text")[0].getText())
 
     return opposites
-
-
-def translate(word, language):
-    """ Translates a word into another language
-        Args:
-            word: single word string
-            language: language string
-
-        Returns:
-            String
-
-        Example:
-            translate('hello', 'fr-Fr')
-            'bonjour'
-    """
-
-    gs = goslate.Goslate()
-    translated = gs.translate(word, language)
-    return translated
